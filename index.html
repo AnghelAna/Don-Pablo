@@ -9,18 +9,19 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Montserrat"
   >
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     
   </head>
 
   <body>
-    <header>
+    <header class="header">
+      <div class="container">
         <a href="/" class="logo" title="Don pablo coffee">
             <img src="images/don-pablo-logo.svg" 
             alt="Don Pablos Coffee">
         </a>
 
-        <nav>
+        <nav class="header-nav">
             <ul>
                 <li>
                     <a href="/" title="Home"
@@ -40,31 +41,36 @@
                 </li>
             </ul>
         </nav>
+      </div>
     </header>
 
-    <main>
-        <header>
-            <img src="images/don-pablo-hero-image.jpeg" 
-            alt="Homepage">
+    <main class="main">
+        <header class="home-hero">
+            <img 
+            src="images/don-pablo-hero-image.jpeg" 
+            alt="Homepage"
+            class="home-hero-banner">
 
-            <section class="hero">
+            <div class="home-hero-container">
+              <div class="container">
+            <section class="home-hero-copy">
                 <blockquote>
                     <span>As I always say,</span>
                     a perfect coffee helps you
                     <span>get the job done</span>
                 </blockquote>
-
             <cite>by Don Pablo</cite>
-
             <a
             href=""
             title="Get the job DONE"
             class="hero-cta"
           >Get the job DONE</a>
         </section>
+              </div>
+            </div>
         </header>
 
-<section class="home.catalog.priview">
+<section class=" home-section home-catalog-priview container">
     <header>
         <h1><span class="has-decoration-star">Specialty Collection</span></h1>
         <p>our best of the best</p>
@@ -108,9 +114,9 @@
           <footer class="product-tile-controls">
             <a
               href=""
-              class="product-tile-add-to-cart"
-              title="Add to cart"
-            >Add to cart</a>
+              class="product-tile-see-more"
+              title="see more"
+            >see more</a>
           </footer>
         </article>
 
@@ -151,9 +157,9 @@
           <footer class="product-tile-controls">
             <a
               href=""
-              class="product-tile-add-to-cart"
-              title="Add to cart"
-            >Add to cart</a>
+              class="product-tile-see-more"
+              title="see more"
+            >see more</a>
           </footer>
         </article>
 
@@ -194,15 +200,15 @@
           <footer class="product-tile-controls">
             <a
               href=""
-              class="product-tile-add-to-cart"
-              title="Add to cart"
-            >Add to cart</a>
+              class="product-tile-see-more"
+              title="see more"
+            >see more</a>
           </footer>
         </article>
       </div>
     </section>
 
-    <section class="home-about">
+    <section class="home-section home-about container">
       <header>
         <h1><span class="has-decoration-star">About our farm</span></h1>
         <p>a few words about DonPablo</p>
